@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                               
+    "module": "commonjs",                             
+    "strict": true,                                  
+    "types": ["jest"],                               
+    "outDir": "./dist",                              
+    "skipLibCheck": true                             
+  },
+  "include": ["src", "test"],
+  "exclude": ["node_modules", "dist"]
+}
